@@ -48,3 +48,4 @@ export default tseslint.config({
   },
 })
 ```
+# fr2025
