@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-white;
+  background: linear-gradient(167.96deg, #000000 0%, #040B2C 100%);
+  min-height: 100vh;
+}
+
+/* Додаткові стилі для градієнту з блюром */
+.bg-blur-gradient {
+  background: radial-gradient(
+    circle at center,
+    rgba(4, 11, 44, 0.5) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  backdrop-filter: blur(10px);
+} 
